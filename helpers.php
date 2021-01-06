@@ -1,5 +1,12 @@
 <?php
 
+if (!function_exists('str_finish')) {
+    function str_finish($a, $b)
+    {
+        return $a;
+    }
+}
+
 if (!function_exists('umi')) {
     function umi($path)
     {
